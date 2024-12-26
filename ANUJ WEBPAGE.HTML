@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Themed Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+        }
+        input[type="text"], input[type="email"], input[type="date"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #45a049;
+        }
+        .media {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img, video {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Themed Webpage</h1>
+</header>
+
+<main>
+    <h2>Tell Us About Yourself</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" required>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+   <div class="media">
+        <h2>Check Out This Image/Video</h2>
+        <img src="C:\Users\anyadav\Downloads\Nokia TMO.jpg" alt="Relevant theme image">
+        <h3>Listen to This Audio</h3>
+        <audio controls>
+            <source src="C:\Users\anyadav\Downloads\relaxing-piano-music-248868.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</main>
+
+</body>
+</html>
